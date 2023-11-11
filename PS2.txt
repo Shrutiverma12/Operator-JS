@@ -1,0 +1,16 @@
+The comma is an operator in JavaScript that returns the last 
+operand while evaluating all operands in an expression. The 
+evaluation is from the left to right direction.
+
+In a compound expression, the value of the rightmost operand 
+is the outcome of the expression.
+
+We use commas in for loop to give multiple parameters. The 
+comma operator is completely different from commas in arrays, 
+objects, arguments of a function, and parameters.
+
+Example -
+let x = 1;
+(x++,x+=2,x*=3);
+
+console.log(x) //Output: 12
